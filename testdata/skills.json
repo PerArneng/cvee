@@ -1,0 +1,17 @@
+[
+  {
+    "id": "java",
+    "name": "Java",
+    "level": 5
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "level": 4
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "level": 3
+  }
+]

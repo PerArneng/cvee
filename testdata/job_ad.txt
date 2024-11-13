@@ -1,0 +1,41 @@
+Senior Software Engineer
+
+We are looking for a talented Software Engineer to join our Engineering team!
+
+Minna connects global banks and fintech with subscription businesses to give consumers self-serve subscription management in-app. Minna is a technology partner to top-tier financial institutions, fintech and subscription businesses, providing subscription management functionality for 50+ million banking and fintech customers across the United States, United Kingdom and Europe.
+
+Minna builds the infrastructure that links Subscription Merchants (such as Netflix, Spotify, Amazon) to leading Financial Institutions (Lloyds Bank, ING Belgium, Swedbank to name a few). This connection enables consumers to effortlessly manage their subscriptions by performing actions like canceling, pausing, or changing their plans.
+
+At Minna, Product and Engineering work closely together and our organization structure truly empowers our teams, allowing us to solve problems quickly and drive real results. We have a tight bond and collaborate daily on the most highly prioritized improvements.
+
+Responsibilities
+
+Design, implement, test, deploy and maintain software as part of the defined Software Development Lifecycle.
+Contribute to defining the team's technical vision and the necessary steps to achieve it.
+Provide technical expertise in the discovery phase of Product Development.
+Ensure all solutions we create are compliant with any certifications, rules and regulations as well as not negatively impact our target service levels.
+Participate actively in the team’s rituals (can vary between teams).
+Software Engineers with Ops-access are part of our on-call process to ensure our systems are available around the clock.
+Collaborate with senior team members to design and drive the architecture of the platform
+
+Requirements
+
+Strong proficiency in Java, with a minimum of 5+ years of hands-on experience developing backend applications. 
+Scala and Kotlin experience beneficial
+Experience in designing and building RESTful APIs, and distributed systems.
+Proficient in working with databases, including familiarity with NoSQL databases.
+Strong problem-solving and analytical skills, with the ability to quickly understand complex systems and identify effective solutions.
+Quality focused mindset, bringing excellence and continuous improvement to our products.
+Excellent collaboration and communication skills, with the ability to work effectively in a team-oriented environment.
+Prior experience in Agile development methodologies and practices.
+Demonstrated ability to quickly learn new technologies and programming languages as needed.
+
+Our Global Benefits
+
+Freedom to choose your way of working, you get the opportunity to choose from where and when you work
+Private health insurance
+Subscription allowance
+
+Find More Information About Our Benefits Here
+
+Minna is an equal opportunities employer and does not discriminate on the basis of race, nationality, ethnicity, skin colour, religion, disability or sexual orientation. We celebrate and embrace a diverse workforce and are committed to building a team that represents a variety of backgrounds, perspectives and skills
