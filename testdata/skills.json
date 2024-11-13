@@ -16,5 +16,11 @@
     "name": "Python",
     "level": 3,
     "roles": ["backend"]
+  },
+  {
+    "id": "aws",
+    "name": "AWS",
+    "level": 5,
+    "roles": ["cloud", "backend"]
   }
 ]

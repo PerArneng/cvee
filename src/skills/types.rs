@@ -12,7 +12,6 @@ pub struct Skill {
 }
 pub type OptimiseResult = Result<Vec<Skill>, Box<dyn std::error::Error>>;
 
-
 pub trait SkillOptimizer {
     fn optimise<'a>(
         &'a self,
