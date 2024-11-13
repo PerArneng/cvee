@@ -32,10 +32,11 @@ pub async fn optimise(skill_file: &PathBuf, job_file: &PathBuf, output_file: &Pa
     let job_description = std::fs::read_to_string(job_file)?;
 
     log::info!("optimising skills");
-    let optimised_skills = optimize_skills(&skills_json, &job_description).await;
-
+    let optimised_skills = optimize_skills(&skills_json, &job_description).await?;
 
     log::info!("saving optimised skills to {}", output_file.display());
+
+    tokio::fs::write(output_file, io::serialize_skills(&optimised_skills)?).await?;
 
     Ok(())
 }

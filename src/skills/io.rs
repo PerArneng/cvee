@@ -16,7 +16,7 @@ use super::types::Skill;
 /// * `Ok(String)` containing the JSON representation if successful.
 /// * `Err(serde_json::Error)` if serialization fails.
 pub fn serialize_skills(skills: &[Skill]) -> Result<String, serde_json::Error> {
-    serde_json::to_string(skills)
+    serde_json::to_string_pretty(skills)
 }
 
 /// Deserializes a JSON string into a vector of `Skill` structs.
