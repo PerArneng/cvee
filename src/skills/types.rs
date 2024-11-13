@@ -11,11 +11,12 @@ pub struct Skill {
     pub roles: Vec<String>,
 }
 pub type OptimiseResult = Result<Vec<Skill>, Box<dyn std::error::Error>>;
+pub type OptimiseFuture<'a> = Pin<Box<dyn Future<Output = OptimiseResult> + Send + 'a>>;
 
 pub trait SkillOptimizer {
     fn optimise<'a>(
         &'a self,
         skills: &'a [Skill],
         job_description: &'a str,
-    ) -> Pin<Box<dyn Future<Output = OptimiseResult> + Send + 'a>>;
+    ) -> OptimiseFuture<'a>;
 }
