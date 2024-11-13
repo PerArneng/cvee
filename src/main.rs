@@ -4,8 +4,10 @@ mod logging;
 
 use std::path::PathBuf;
 use log;
+use skills::optimise;
 
-fn main() -> Result<(), Box<dyn std::error::Error>> {
+#[tokio::main]
+async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     logging::init()?;
 
@@ -19,7 +21,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             let job_ad_file = matches.get_one::<PathBuf>("job-txt").unwrap();
             let output_file = matches.get_one::<PathBuf>("output-skill-json").unwrap();
 
-            let result = skills::skills_optimise(skill_file, job_ad_file, output_file);
+            let result = optimise::optimise(skill_file, job_ad_file, output_file).await;
             if let Err(e) = result {
                 log::error!("error: {}", e);
             }

@@ -2,16 +2,19 @@
   {
     "id": "java",
     "name": "Java",
-    "level": 5
+    "level": 5,
+    "roles": ["backend"]
   },
   {
     "id": "javascript",
     "name": "JavaScript",
-    "level": 4
+    "level": 4,
+    "roles": ["frontend", "backend"]
   },
   {
     "id": "python",
     "name": "Python",
-    "level": 3
+    "level": 3,
+    "roles": ["backend"]
   }
 ]
