@@ -37,6 +37,15 @@ pub fn build_cli() -> Command{
                                 .help("Output skill JSON file")
                                 .value_parser(value_parser!(PathBuf))
                                 .required(true),
+                        ).arg(
+                            Arg::new("optimizer-type")
+                                .short('t')
+                                .long("optimizer-type")
+                                .value_name("OPTIMIZER_TYPE")
+                                .help("The type of optimizer to use [openai, sorting]")
+                                .default_value("openai")
+                                .value_parser(clap::builder::NonEmptyStringValueParser::new())
+                                .required(false),
                         ),
                 ),
         )
